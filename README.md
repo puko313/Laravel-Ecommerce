@@ -1,126 +1,94 @@
-Contribution: 2016-01-06 20:00
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-Contribution: 2016-01-10 20:00
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-Contribution: 2016-01-10 20:01
 
-Contribution: 2016-01-13 20:00
+## Laravel Ecommerce Platform
 
-Contribution: 2016-01-13 20:01
+This is a e-commerce platform I made mostly using Laravel ^8.3
 
-Contribution: 2016-01-13 20:02
+| [Features][] | [Requirements][] | [Install][] | [How to setting][] | [License][] |
 
-Contribution: 2016-01-14 20:00
 
-Contribution: 2016-01-14 20:01
+## Features 
+- Automatic cross sell / up sell / related product offerings
+- Open Source
+- Ecommerce Solution
 
-Contribution: 2016-01-20 20:00
+## Requirements
 
-Contribution: 2016-01-23 20:00
+	PHP = ^7.3|^8.0
+    laravel-ui = ^3.2
 
-Contribution: 2016-01-27 20:00
+## Install
 
-Contribution: 2016-01-27 20:01
+Clone repo
 
-Contribution: 2016-01-27 20:02
+```
+git clone https://github.com/Md-shefat-masum/Laravel-Ecommerce.git
+```
 
-Contribution: 2016-01-28 20:00
+Install Composer
 
-Contribution: 2016-01-29 20:00
 
-Contribution: 2016-01-29 20:01
+[Download Composer](https://getcomposer.org/download/)
 
-Contribution: 2016-01-30 20:00
 
-Contribution: 2016-01-30 20:01
+composer update/install 
 
-Contribution: 2016-02-04 20:00
+```
+composer install
+```
 
-Contribution: 2016-02-04 20:01
+Install Nodejs
 
-Contribution: 2016-02-04 20:02
 
-Contribution: 2016-02-06 20:00
+[Download Node.js](https://nodejs.org/en/download/)
 
-Contribution: 2016-02-06 20:01
 
-Contribution: 2016-02-06 20:02
+NPM dependencies
+```
+npm install
+```
 
-Contribution: 2016-02-08 20:00
+Using Laravel Mix 
 
-Contribution: 2016-02-08 20:01
+```
+npm run dev
+```
 
-Contribution: 2016-02-09 20:00
+## How to setting 
 
-Contribution: 2016-02-10 20:00
+Go into .env file and change Database and Email credentials.
 
-Contribution: 2016-02-10 20:01
+```
+php artisan migrate
+```
 
-Contribution: 2016-02-10 20:02
+```
+php artisan db:seed --class=UserSeeder
+php artisan db:seed --class=UserRoleSeeder
+php artisan db:seed --class=DatabaseSeeder
+```
+	
+Generating a New Application Key
+```
+php artisan key:generate
+```
 
-Contribution: 2016-02-13 20:00
 
-Contribution: 2016-02-13 20:01
+## License
 
-Contribution: 2016-02-14 20:00
+> Copyright (C) 2021 HungryCoders.  
+**[⬆ back to top](#laravel-ecommerce-platform)**
 
-Contribution: 2016-02-16 20:00
-
-Contribution: 2016-02-16 20:01
-
-Contribution: 2016-02-16 20:02
-
-Contribution: 2016-02-19 20:00
-
-Contribution: 2016-02-19 20:01
-
-Contribution: 2016-02-21 20:00
-
-Contribution: 2016-02-23 20:00
-
-Contribution: 2016-02-23 20:01
-
-Contribution: 2016-02-24 20:00
-
-Contribution: 2016-02-24 20:01
-
-Contribution: 2016-02-24 20:02
-
-Contribution: 2016-02-25 20:00
-
-Contribution: 2016-02-26 20:00
-
-Contribution: 2016-03-01 20:00
-
-Contribution: 2016-03-01 20:01
-
-Contribution: 2016-03-03 20:00
-
-Contribution: 2016-03-03 20:01
-
-Contribution: 2016-03-05 20:00
-
-Contribution: 2016-03-10 20:00
-
-Contribution: 2016-03-10 20:01
-
-Contribution: 2016-03-10 20:02
-
-Contribution: 2016-03-12 20:00
-
-Contribution: 2016-03-16 20:00
-
-Contribution: 2016-03-16 20:01
-
-Contribution: 2016-03-17 20:00
-
-Contribution: 2016-03-18 20:00
-
-Contribution: 2016-03-18 20:01
-
-Contribution: 2016-03-18 20:02
-
-Contribution: 2016-03-20 20:00
-
-Contribution: 2016-03-20 20:01
-
+[Features]:#features
+[Requirements]:#requirements
+[Install]:#install
+[How to setting]:#how-to-setting
+[License]:#license
